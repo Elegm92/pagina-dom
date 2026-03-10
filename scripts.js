@@ -34,7 +34,7 @@ const data = [
   </article>`;
   }
 //input ciudades:
-let ciudades = document.getElementById("opcion");
+const ciudades = document.getElementById("opcion");
 
 const cities = [
   "Madrid",
