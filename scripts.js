@@ -34,6 +34,7 @@ const data = [
   </article>`;
   }
 //input ciudades:
+//seleccionar el select
 const ciudades = document.getElementById("opcion");
 
 const cities = [
@@ -48,11 +49,16 @@ const cities = [
   "Alicante",
   "Zaragoza",
 ];
-
+//Recorrer el array
 for (let i = 0; i < cities.length; i++) {
-  ciudades.innerHTML += `
-    <option value="${cities[i]}">${cities[i]}</option>
-  `;
+  //creamos option
+  const opcion = document.createElement("option");
+  //añadir texto del array
+  opcion.textContent = cities[i];
+  //Añadir los valores
+  opcion.value = cities[i];
+  //añadimos al select
+  ciudades.appendChild(opcion);
 }
 
 //Ejer: Añadir dos elementos `<li>` a un `<ul>` (Desde JS), y unirlos al DOM de tu página HTML
