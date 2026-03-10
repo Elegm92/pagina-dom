@@ -55,7 +55,7 @@ for (let i = 0; i < cities.length; i++) {
   const opcion = document.createElement("option");
   //añadir texto del array
   opcion.textContent = cities[i];
-  //Añadir los valores
+  //Añadir los valores(value="Madrid")
   opcion.value = cities[i];
   //añadimos al select
   ciudades.appendChild(opcion);
