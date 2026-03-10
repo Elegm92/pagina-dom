@@ -1,6 +1,6 @@
 # Practica DOM
 
-**Mundo Mascotas** es una página web sencilla desarrollada con **HTML5** y **CSS3** y **JAVASCRIPT**
+**Practica DOM** es una página web sencilla desarrollada con **HTML5** y **CSS3** y **JAVASCRIPT**
 
 ---
 
