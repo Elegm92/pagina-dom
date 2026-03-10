@@ -65,12 +65,12 @@ for (let i = 0; i < cities.length; i++) {
 //Primer Li
 const lista = document.getElementById("lista-ul");
 const li1 = document.createElement("li");
-const texto1 = document.createTextNode("Texto creado por create en Js");
+const texto1 = document.createTextNode("Texto creado por create en Js");//Crea el texto
 li1.appendChild(texto1);
 
-const atributo = document.createAttribute("class");
+const atributo = document.createAttribute("class");//Crea atributo clase
 atributo.value = "lista1";
-li1.setAttributeNode(atributo);
+li1.setAttributeNode(atributo);//atributo al li
 lista.appendChild(li1);
 
 //Segundo Li
@@ -78,12 +78,12 @@ lista.innerHTML += "<li class='lista2'>Elemento 2 creado con innerHTML</li>"
 
 //Ejer 1 bis:
 const tareas = ["comprar","barrer","alimentar gato","colada"] //Array
-const listado = document.getElementById("lista-ul");
+const listado = document.getElementById("lista-ul");//Selecciona ul
 for (let i = 0; i < tareas.length; i++) {
-  const li2 = document.createElement("li");
-  const texto2 = document.createTextNode(tareas[i]);
-  li2.appendChild(texto2);
-  listado.appendChild(li2);
+  const li2 = document.createElement("li");//Cada vuelta crea un li
+  const texto2 = document.createTextNode(tareas[i]);//Metemos dentro texto array
+  li2.appendChild(texto2);//metemos texto en li
+  listado.appendChild(li2);//il al ul
 }
 
   
